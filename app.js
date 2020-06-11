@@ -1,3 +1,9 @@
+/**
+ * this function is mainly for bringing data from external quizQuestion.json file
+ * it makes XHTTP Request to get data, and if data is brought sunccessfully it passes the response to the callback function that is passed to.
+ *
+ * @param {Callback function} cb, it receives the response.
+ */
 function fetchQuestions(cb) {
   let xhttp = new XMLHttpRequest();
 
@@ -11,6 +17,9 @@ function fetchQuestions(cb) {
   xhttp.send();
 }
 
+/**
+ * this is the handler of click event associated to the Start Quiz Button
+ */
 function startQuizButtonClick() {
   let startQuizButton = document.getElementById("SQuiz");
   startQuizButton.setAttribute("disabled", "disabled");
@@ -38,6 +47,9 @@ function startQuizButtonClick() {
   });
 }
 
+/**
+ * this function is responsible for showing the status of the chosen answer
+ */
 function answerClick(status) {
   alert(status);
 }
