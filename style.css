@@ -1,0 +1,22 @@
+button {
+  margin-bottom: 10px;
+}
+
+#quizDiv {
+  margin-left: 10px;
+  background: rgb(0, 51, 102);
+  padding: 10px 20px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.quesDiv {
+  margin-left: 10px;
+  background: #d2def2;
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

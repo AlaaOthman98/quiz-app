@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "question": "to create a link in an anchor, which of the following do you use with a tag",
+      "choices": [
+        {
+          "answer": "name",
+          "correct": false
+        },
+        {
+          "answer": "link",
+          "correct": false
+        },
+        {
+          "answer": "href",
+          "correct": true
+        },
+        {
+          "answer": "tag",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "what general syntax for inline image?",
+      "choices": [
+        {
+          "answer": "src = img",
+          "correct": false
+        },
+        {
+          "answer": "img = file",
+          "correct": false
+        },
+        {
+          "answer": "image src = file",
+          "correct": false
+        },
+        {
+          "answer": "img src = file",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}
